@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-image: url(http://shtheme.com/demosd/orgafe/wp-content/uploads/2019/04/bg3.jpg);
+  }
+  
+  a {
+    color: #000;
+  }
+  
+  .header {
+    background-color: #f1a90f;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: absolute;;
+    width: 100%;
+    z-index: 3;
+  }
+  
+  .header ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  .header li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+  }
+  
+  .header li a:hover,
+  .header .menu-btn:hover {
+    background-color: #f4f4f4;
+  }
+  
+  .header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  
+  .header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+ 
+  
+  .header .menu-icon .navicon {
+    background: rgb(37, 37, 37);
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+  }
+  
+  
+  .header .menu-icon .navicon:before {
+    top: 5px;
+  }
+  
+  .header .menu-icon .navicon:after {
+    top: -5px;
+  }
+  
+  
+
+  @media (min-width: 48em) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+  }
+
+.menu{
+    font-family: 'Noto Sans JP', sans-serif;
+
+}

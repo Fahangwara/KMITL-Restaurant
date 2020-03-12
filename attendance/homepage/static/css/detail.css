@@ -1,0 +1,140 @@
+img{
+    width: 1100px;
+    height: 600px
+}
+
+body, html {
+	font-family: 'Open Sans', serif;
+	color: rgb(27, 27, 27);
+	font-weight: 400;
+	width: 100% !important;
+    height: 100% !important;
+}
+
+h2 {
+	font-weight: 400;
+	font-size: 38px;
+	color: #333;
+	text-transform: uppercase;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding-bottom: 20px;
+}
+h2::after {
+	position: absolute;
+	content: "";
+	background: #d43031;
+	height: 2px;
+	width: 70px;
+	bottom: 0;
+	margin-left: -35px;
+	left: 50%;
+}
+h3 {
+	font-size: 24px;
+	font-weight: 400;
+	color: #333;
+}
+h4 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #333;
+	font-family: 'Athiti', sans-serif;
+}
+h5 {
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 20px;
+}
+p {
+	font-size: 15px;
+}
+
+#restaurant-menu {
+	padding: 100px 0 60px 0;
+}
+#restaurant-menu img {
+	width: 300px;
+	box-shadow: 15px 0 #a7c44c;
+}
+#restaurant-menu h3 {
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+#restaurant-menu .menu-section hr {
+	margin: 0 auto;
+}
+#restaurant-menu .menu-section {
+	margin: 0 20px 80px;
+}
+#restaurant-menu .menu-section-title {
+	font-size: 32px;
+	display: block;
+	font-weight: 400;
+	color: #444;
+	margin: 20px 0;
+	text-align: center;
+}
+#restaurant-menu .menu-item {
+	margin: 45px 0;
+	font-size: 18px;
+}
+#restaurant-menu .menu-item-name {
+	font-weight: 400;
+	font-size: 20px;
+	color: #444;
+	margin-bottom: 10px;
+}
+#restaurant-menu .menu-item-description {
+	font-size: 15px;
+	width: 85%;
+}
+#restaurant-menu .menu-item-price {
+	float: right;
+	font-weight: 400;
+	color: #555;
+	margin-top: -36px;
+}
+.row{
+    float: center;
+}
+.container {
+    background:  rgb(255, 255, 255);
+    margin: 60px auto;
+    padding: 20px 40px 50px;
+    max-width: 100%;
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
+   
+}
+
+.desc_res {
+	font-family: 'Athiti', sans-serif;
+}
+
+h1{
+	font-family: 'Athiti', sans-serif;
+}
+
+
+.btn{
+	background-color: #f7bc23;
+	border-color: #f7bc23;
+	font-family: 'Noto Sans JP', sans-serif;
+  }
+  .seachbox{
+	font-family: 'Noto Sans JP', sans-serif;
+  }
+  
+  body{
+	background-color: #ffffff;
+  }
+  
+  h3{
+	font-family: 'Noto Sans JP', sans-serif;
+  }
+  .red{
+	background-color: #c5211c;
+	border-color: #c5211c;
+  }
